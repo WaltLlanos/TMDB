@@ -299,7 +299,7 @@ button {
   font-weight: var(--font-weight-title2);
 }
 .movieDetail-score::before {
-  content: 'â˜…';
+  content: '★';
   color: var(--yellow);
   padding-right: 4px;
 }

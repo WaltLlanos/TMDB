@@ -87,6 +87,12 @@ function moviePage() {
     categoriesPreviewSection.classList.add('inactive');
     genericSection.classList.add('inactive')
     movieDetailSection.classList.remove('inactive')
+
+    // ['#search', 'platzi']
+    let movieId = location.hash.split('=')[1];
+    movieId = movieId.replaceAll('%20', ' ');
+    console.log('Mostrando la peli: '+movieId);
+    getMovieById(movieId);
 }
 function searchPage() {
     console.log('SEARCH')
