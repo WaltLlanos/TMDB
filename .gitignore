@@ -130,6 +130,6 @@ dist
 .pnp.*
 
 # Key.js (API KEY)
-src/key.js
+# src/key.js
 
 .DS_Store
